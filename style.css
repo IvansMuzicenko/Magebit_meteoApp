@@ -1,0 +1,9 @@
+.hourly {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(24, 1fr);
+}
+
+.hourly__block--template {
+  display: none;
+}/*# sourceMappingURL=style.css.map */
