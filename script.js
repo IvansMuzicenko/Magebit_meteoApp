@@ -63,8 +63,6 @@ const createHour = async function (time, temp, windspeed, rain, clouds) {
 const getHourly = async function () {
   const weather = await getHourlyWeather();
 
-  console.log(weather);
-
   for (const i in weather.time) {
     createHour(
       weather.time[i],
